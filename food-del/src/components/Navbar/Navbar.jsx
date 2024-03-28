@@ -23,6 +23,7 @@ export default function Navbar(){
             </ul>
             <div className='flex space-x-8  items-center'>
                 <img src={search} alt=""/>
+                
                <button onClick={() => handleClick('Sign in')} className={currentPage === 'Sign in' ? 'px-4 py-2 bg-gray-600 text-white rounded' : "px-4 py-2 text-gray-800"}>Sign in</button>
             </div>
         </nav>
